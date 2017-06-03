@@ -142,3 +142,57 @@ header#main-header div.header-caption
 	line-height: 25px;
 }
 /*Section-O-MNIE-STOP*/
+
+/*Section-Moje-Umiejętności-Start*/
+
+
+
+div.skils-text
+{
+	text-align: center;
+	
+	
+}
+
+div.kafelki
+{
+	
+
+	text-align: center;
+	position: absolute;
+	left: 28%;
+	right: 20%;
+	padding-top: 40px;
+
+	
+	
+}
+
+figure.ikon
+{
+	
+
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	
+	
+}
+
+figcaption
+{
+	text-align: center;	
+}
+/*Section-Moje-Umiejętności-Stop*/
+
+/*Section-Moje-portfolio-Start*/
+
+h2.portfolio-text
+{
+	position: relative;
+	top:400px;
+}
+
+
+/*Section-Moje-portfolio-Stop*/
