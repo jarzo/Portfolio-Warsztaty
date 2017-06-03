@@ -143,6 +143,13 @@ header#main-header div.header-caption
 }
 /*Section-O-MNIE-STOP*/
 
+
+
+
+
+
+
+
 /*Section-Moje-Umiejętności-Start*/
 
 
@@ -169,6 +176,11 @@ figcaption
 	text-align: center;	
 }
 /*Section-Moje-Umiejętności-Stop*/
+
+
+
+
+
 
 /*Section-Moje-portfolio-Start*/
 
@@ -214,6 +226,10 @@ div#obrazek1
 }
 */
 
+
+
+
+
 #portfolio #portfolio-item-1
 {
 	background-image: url(../img/portfolio1.jpg);
@@ -245,7 +261,7 @@ div#obrazek1
 	width: 33.3333%;
 	position: relative;
 }
-
+/*początek animacji*/
 #portfolio .portfolio-items .portfolio-item .item-mask
 {
 	background-color: rgba(42, 61, 79, 0.8);
@@ -262,8 +278,32 @@ div#obrazek1
 	opacity: 1;
 }
 
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content
+{
+	height: 330px;
+	border: 1px solid #fff;
+	margin: 10px;
+	position: relative;
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner
+{
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+	left: 0;
+	padding: 5px;
+}
+
+/*koniec animacji*/
 
 /*Section-Moje-portfolio-Stop*/
+
+
+
+
 
 /*Section-Contact-Start*/
 
@@ -318,6 +358,6 @@ select:focus
 	border: 1px solid #fff;
 	outline: none;
 	background-color: #4e708c;
-	
+}
 
 /*Section-Contact-Stop*/
