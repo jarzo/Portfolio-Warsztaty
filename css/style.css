@@ -52,6 +52,11 @@ nav#menu
 	width: 100%;
 }
 
+nav#menu .toggle, [id=drop]
+{
+	display: none;
+}
+
 nav#menu ul
 {
 	margin: 0;

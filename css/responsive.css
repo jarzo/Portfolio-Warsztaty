@@ -12,8 +12,15 @@
 
 @media all and (max-width: 768px)
 {
-	#portfolio .portfolio-items .portfolio-item{
-		width: 100%;
+	nav#menu .toggle{
+		display: block;
+		background-color: #fff;
+		padding:0 20px;
+		color: #1ac056;
+		font-size: 20px;
+		line-height: 60px;
+		text-decoration: none;
+		text-align: right;
 	}
 
 	
