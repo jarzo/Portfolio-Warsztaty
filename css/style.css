@@ -296,6 +296,15 @@ div#obrazek1
 	left: 0;
 	padding: 5px;
 }
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a
+{
+	color: #fff;
+}
+
+#portfolio .portfolio-items .portfolio-item .item-mask .item-content .item-content-inner a:hover
+{
+	color:#1ac056;
+}
 
 /*koniec animacji*/
 
