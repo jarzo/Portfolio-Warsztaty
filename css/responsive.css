@@ -9,7 +9,7 @@
 	#portfolio .portfolio-items .portfolio-item:last-child{
 		width: 100%;}
 }
-
+/*menu hamburger Start*/
 @media all and (max-width: 768px)
 {
 	nav#menu .toggle{
@@ -23,11 +23,46 @@
 		text-align: right;
 	}
 
+	nav#menu ul{
+		display: none;
+	}
 	
+	nav#menu #drop:checked + ul{
+		display: block;
+	}
+	
+	nav#menu > ul >li{
+		display: block;
+		width: 100%;
+		padding: 20px;
+		text-align: right;
+	}
+	
+	header#main-header .header-caption{
+				padding: 10px;
+	}
+	
+	section#about .col-1-2{
+		width: 100%;
+	}
+	
+	#portfolio .portfolio-items .portfolio-item{
+		width: 100%;}
 }
-	
-@media all and (max-width: 640px)
+/*menu hamburger Stop	*/
+@media all and (max-width: 680px)
 {
+	section {
+		padding: 0 40px 50px;
+	}
+	
+	header#main-header .header-caption h1{
+		font-size: 3em;
+	}
+	
+	header#main-header .header-caption h2{
+		font-size: 1.5em;
+	}
 	
 }
 
