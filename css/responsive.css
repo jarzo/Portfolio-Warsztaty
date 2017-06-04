@@ -48,6 +48,21 @@
 	
 	#portfolio .portfolio-items .portfolio-item{
 		width: 100%;}
+
+
+
+	section#contact div.contact-form{
+	width: 100%;
+	text-align: center;
+	}
+
+	section#contact div.contact-data{
+		width: 100%;
+		text-align: center;}
+	
+	section#contact div.contact-data > h2{
+		text-align: center;
+	}
 }
 /*menu hamburger Stop	*/
 @media all and (max-width: 680px)
