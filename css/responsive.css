@@ -63,6 +63,9 @@
 	section#contact div.contact-data > h2{
 		text-align: center;
 	}
+	section .contact-data .contact-social-icons a{
+		margin: 0;
+	}
 }
 /*menu hamburger Stop	*/
 @media all and (max-width: 680px)
